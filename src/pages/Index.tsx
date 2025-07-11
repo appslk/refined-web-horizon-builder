@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -7,10 +8,11 @@ import WhyJBlob from "@/components/WhyJBlob";
 import Tokenomics from "@/components/Tokenomics";
 import Merch from "@/components/Merch";
 import InfluencerMessage from "@/components/InfluencerMessage";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background font-mochiy">
       <Navigation />
       <Hero />
       <div id="about">
@@ -30,6 +32,7 @@ const Index = () => {
         <Merch />
       </div>
       <InfluencerMessage />
+      <ScrollToTop />
     </div>
   );
 };

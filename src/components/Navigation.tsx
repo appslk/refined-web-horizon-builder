@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ExternalLink } from "lucide-react";
@@ -19,7 +20,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-2xl font-black text-primary">$JBLOB</span>
+            <span className="text-2xl font-anton font-black text-primary">$JBLOB</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -29,7 +30,7 @@ const Navigation = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors font-mochiy"
                 >
                   {item.name}
                 </a>
@@ -39,7 +40,7 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-mochiy">
               <ExternalLink className="mr-2 h-4 w-4" />
               Buy Now
             </Button>
@@ -65,14 +66,14 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-foreground/80 hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
+                className="text-foreground/80 hover:text-primary block px-3 py-2 rounded-md text-base font-medium font-mochiy"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </a>
             ))}
             <div className="pt-4">
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-mochiy">
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Buy Now
               </Button>

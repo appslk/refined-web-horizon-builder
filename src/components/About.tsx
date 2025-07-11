@@ -1,3 +1,4 @@
+
 const About = () => {
   return (
     <section className="py-20 px-4 bg-card">
@@ -5,11 +6,11 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            <h2 className="text-4xl md:text-5xl font-anton font-bold text-foreground">
               About $JBLOB
             </h2>
             
-            <div className="space-y-4 text-lg text-foreground/80">
+            <div className="space-y-4 text-lg text-foreground/80 font-mochiy">
               <p>
                 $JBLOB isn't just a memecoin. It's a brain-melting, liver-destroying, zero-sense masterpiece born straight from the depths of CT insanity.
               </p>

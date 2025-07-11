@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 
@@ -37,13 +38,13 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-black mb-6 text-primary blob-glow">
+        <h1 className="text-6xl md:text-8xl font-anton font-black mb-6 text-primary blob-glow">
           $JBLOB
         </h1>
-        <p className="text-xl md:text-2xl mb-8 text-foreground/90 font-bold">
+        <p className="text-xl md:text-2xl mb-8 text-foreground/90 font-bold font-mochiy">
           Brain-melting, liver-destroying, zero-sense masterpiece
         </p>
-        <p className="text-lg mb-12 text-foreground/80">
+        <p className="text-lg mb-12 text-foreground/80 font-mochiy">
           The drunk, unhinged brother of $GONK 🍺<br />
           Born for chaos, built to moon.
         </p>
@@ -51,7 +52,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-bold blob-glow"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-bold blob-glow font-mochiy"
           >
             <ExternalLink className="mr-2 h-5 w-5" />
             Buy on Pump.fun
@@ -59,7 +60,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-primary text-primary hover:bg-primary/10 px-8 py-6 text-lg font-bold"
+            className="border-primary text-primary hover:bg-primary/10 px-8 py-6 text-lg font-bold font-mochiy"
           >
             <ExternalLink className="mr-2 h-5 w-5" />
             Raydium
