@@ -11,6 +11,7 @@ const Navigation = () => {
     { name: "How to Buy", href: "#how-to-buy" },
     { name: "Origin", href: "#origin" },
     { name: "Tokenomics", href: "#tokenomics" },
+    { name: "Gallery", href: "#gallery" },
     { name: "Merch", href: "#merch" },
   ];
 
@@ -20,7 +21,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-2xl font-anton font-black text-primary">$JBLOB</span>
+            <span className="text-2xl font-dripink font-bold text-primary">$JBLOB</span>
           </div>
 
           {/* Desktop Navigation */}

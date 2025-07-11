@@ -6,6 +6,7 @@ import HowToBuy from "@/components/HowToBuy";
 import Origin from "@/components/Origin";
 import WhyJBlob from "@/components/WhyJBlob";
 import Tokenomics from "@/components/Tokenomics";
+import Gallery from "@/components/Gallery";
 import Merch from "@/components/Merch";
 import InfluencerMessage from "@/components/InfluencerMessage";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -27,6 +28,9 @@ const Index = () => {
       <WhyJBlob />
       <div id="tokenomics">
         <Tokenomics />
+      </div>
+      <div id="gallery">
+        <Gallery />
       </div>
       <div id="merch">
         <Merch />

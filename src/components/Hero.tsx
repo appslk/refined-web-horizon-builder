@@ -38,7 +38,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-anton font-black mb-6 text-primary blob-glow">
+        <h1 className="text-6xl md:text-8xl font-dripink font-black mb-6 text-primary blob-glow">
           $JBLOB
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-foreground/90 font-bold font-mochiy">

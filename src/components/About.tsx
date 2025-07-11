@@ -6,7 +6,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-anton font-bold text-foreground">
+            <h2 className="text-4xl md:text-5xl font-dripink font-bold text-foreground">
               About $JBLOB
             </h2>
             
@@ -29,7 +29,7 @@ const About = () => {
               
               <div className="bg-secondary p-6 rounded-lg border-l-4 border-primary">
                 <p className="font-semibold text-foreground mb-2">This isn't your average coin.</p>
-                <p className="text-xl font-bold text-foreground mb-2">This is JELLOBLOB.</p>
+                <p className="text-xl font-dripink font-bold text-foreground mb-2">This is JELLOBLOB.</p>
                 <p className="text-sm">
                   He doesn't ask for permission. He crashes the party, spills beer on your keyboard, and moons by accident.
                 </p>

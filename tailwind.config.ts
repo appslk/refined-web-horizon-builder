@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'anton': ['Anton', 'sans-serif'],
+				'dripink': ['DRIPINK PERSONAL USE', 'sans-serif'],
 				'mochiy': ['Mochiy Pop One', 'sans-serif'],
 			},
 			colors: {
